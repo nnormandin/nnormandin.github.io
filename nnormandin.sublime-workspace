@@ -35,7 +35,7 @@
 			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 387,
+				"buffer_size": 368,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -45,17 +45,6 @@
 			"settings":
 			{
 				"buffer_size": 1121,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Lab journal\n---\n\nlmao discovered penicillin today it's pretty good i guess\n",
-			"file": "_posts/1928-09-07-discovery.md",
-			"file_size": 99,
-			"file_write_time": 131323505283106568,
-			"settings":
-			{
-				"buffer_size": 99,
 				"line_ending": "Unix"
 			}
 		}
@@ -273,12 +262,7 @@
 	"expanded_folders":
 	[
 		"/home/nick/misc_projects/nnormandin.github.io",
-		"/home/nick/misc_projects/nnormandin.github.io/_posts",
-		"/home/nick/misc_projects/nnormandin.github.io/_sass",
-		"/home/nick/misc_projects/nnormandin.github.io/_site",
-		"/home/nick/misc_projects/nnormandin.github.io/_site/404",
-		"/home/nick/misc_projects/nnormandin.github.io/_site/Hello-World",
-		"/home/nick/misc_projects/nnormandin.github.io/images"
+		"/home/nick/misc_projects/nnormandin.github.io/_posts"
 	],
 	"file_history":
 	[
@@ -406,7 +390,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -415,15 +399,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 387,
+						"buffer_size": 368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								387,
-								387
+								368,
+								368
 							]
 						],
 						"settings":
@@ -439,15 +423,9 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
 					"file": "_includes/footer.html",
@@ -478,40 +456,14 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/1928-09-07-discovery.md",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 99,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
