@@ -1,0 +1,647 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"find_",
+				"find_element_by_tag_name"
+			],
+			[
+				"rec",
+				"recalculate_results"
+			],
+			[
+				"wiat",
+				"wait_a_minute"
+			],
+			[
+				"get",
+				"get_pw"
+			],
+			[
+				"find",
+				"find_element_by_xpath"
+			],
+			[
+				"uti",
+				"utilities_test"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 387,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 1121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nlayout: post\ntitle: Lab journal\n---\n\nlmao discovered penicillin today it's pretty good i guess\n",
+			"file": "_posts/1928-09-07-discovery.md",
+			"file_size": 99,
+			"file_write_time": 131323505283106568,
+			"settings":
+			{
+				"buffer_size": 99,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/java2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/java2.sublime-build",
+					"Java Lintter"
+				],
+				[
+					"Packages/User/java2.sublime-build",
+					"Run Java"
+				]
+			],
+			[
+				"Packages/User/java2.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "pep",
+		"selected_items":
+		[
+			[
+				"pep",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"boxy theme",
+				"Boxy Theme: Activation"
+			],
+			[
+				"view men",
+				"View: Toggle Menu"
+			],
+			[
+				"set syntax pyton",
+				"Set Syntax: Python"
+			],
+			[
+				"view",
+				"Set Syntax: Git Commit View"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"view status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"boxy the",
+				"Boxy Theme: Preferences"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colorsub",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"close ",
+				"Project: Close"
+			],
+			[
+				"build java3",
+				"Build With: java3"
+			],
+			[
+				"build jav",
+				"Build With: java2 - Run Java"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/nick/misc_projects/nnormandin.github.io",
+		"/home/nick/misc_projects/nnormandin.github.io/_posts",
+		"/home/nick/misc_projects/nnormandin.github.io/_sass",
+		"/home/nick/misc_projects/nnormandin.github.io/_site",
+		"/home/nick/misc_projects/nnormandin.github.io/_site/404",
+		"/home/nick/misc_projects/nnormandin.github.io/_site/Hello-World",
+		"/home/nick/misc_projects/nnormandin.github.io/images"
+	],
+	"file_history":
+	[
+		"/home/nick/misc_projects/repos/pytorch_examples/dcgan/main.py",
+		"/home/nick/python/projects/job_bot/test.py",
+		"/home/nick/python/projects/job_bot/job_bot/Result.py",
+		"/home/nick/python/projects/job_bot/job_bot/test",
+		"/home/nick/python/projects/job_bot/job_bot/__init__.py",
+		"/home/nick/python/projects/job_bot/job_bot/search.py",
+		"/home/nick/python/projects/job_bot/job_bot/session.py",
+		"/home/nick/python/projects/job_bot/job_bot/view_bot2.py",
+		"/home/nick/python/projects/job_bot/job_bot/utilities.py",
+		"/home/nick/python/projects/job_bot/view_bot.py",
+		"/home/nick/python/projects/job_bot/session.py",
+		"/home/nick/python/projects/job_bot/utilities.py",
+		"/home/nick/python/projects/job_bot/f.txt",
+		"/home/nick/python/projects/job_bot/helpers.py",
+		"/home/nick/python/projects/job_bot/__init__.py",
+		"/home/nick/.config/.conky1",
+		"/home/nick/torch/whitman_script.py",
+		"/home/nick/Desktop/temp",
+		"/home/nick/python/projects/AutoTinder/pynder/utilities/utilities_test.py",
+		"/home/nick/python/projects/AutoTinder/pynder/__init__.py",
+		"/home/nick/python/projects/AutoTinder/pynder/session.py",
+		"/home/nick/misc_projects/deep_mooc/fast-ai-commands.txt",
+		"/home/nick/python/projects/AutoTinder/.gitignore",
+		"/home/nick/python/projects/AutoTinder/token.txt",
+		"/home/nick/python/projects/test.py",
+		"/home/nick/java/HelloWorld.java",
+		"/home/nick/.config/sublime-text-3/Packages/User/java3.sublime-build",
+		"/home/nick/hello.c",
+		"/home/nick/HelloWorld.java",
+		"/home/nick/.config/sublime-text-3/Packages/User/java2.sublime-build",
+		"/home/nick/life_plan",
+		"/home/nick/.config/.conky2",
+		"/home/nick/Desktop/282ac4ed-3841-486e-bd41-c20b1a88868f",
+		"/home/nick/python/projects/AutoTinder/pynder/models/__init__.py",
+		"/home/nick/python/projects/AutoTinder/pynder/utilities/__init__.py",
+		"/home/nick/python/projects/AutoTinder/utils.py",
+		"/home/nick/python/projects/AutoTinder/README.md",
+		"/home/nick/python/projects/AutoTinder/token_request.py",
+		"/home/nick/python/projects/AutoTinder/utilities_test.py",
+		"/home/nick/Documents/misc/dive-into-python3.pdf",
+		"/home/nick/YoungOvid/whitman_parser.py",
+		"/home/nick/YoungOvid/data/Doctrine/doctrine_parser.py",
+		"/home/nick/YoungOvid/data/Doctrine/doctrine_wgets.sh",
+		"/home/nick/YoungOvid/data/Doctrine/out.txt",
+		"/home/nick/YoungOvid/data/Doctrine/temp.txt",
+		"/home/nick/.config/sublime-text-3/Packages/User/sftp_servers/bolt",
+		"/tmp/sublime-sftp-browse-1483053436/bolt/home/nick/torch/projects/YoungOvid/whitman_parser.py",
+		"/home/nick/YoungOvid/train.lua",
+		"/home/nick/YoungOvid/.gitignore",
+		"/home/nick/Documents/misc/doctrine/pdfstotext.py",
+		"/home/nick/python/projects/python_challenges/letter_frequency.py",
+		"/home/nick/whitman_script.py",
+		"/home/nick/whitman_processed.txt",
+		"/home/nick/.bashrc",
+		"/home/nick/char-rnn/Readme.md",
+		"/home/nick/Ovid__Horace_Gregory_The_Metamorphoses_djvu.txt",
+		"/home/nick/Documents/planX/applications-dev/killprocess/killprocess.lua",
+		"/home/nick/.config/sublime-text-3/Packages/SublimeREPL/config/Shell/Main.sublime-menu",
+		"/home/nick/.config/sublime-text-3/Packages/SublimeREPL/config/Shell/Default.sublime-commands",
+		"/home/nick/Gemfile.lock",
+		"/home/nick/.config/sublime-text-3/Packages/SublimeREPL/config/R/Main.sublime-menu"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"zero_grad",
+			"count",
+			"make_features",
+			"current_window_handle",
+			"Result",
+			"bot",
+			"wait_a_minute",
+			"time",
+			"wait_a_minute",
+			"css",
+			"bot",
+			"id",
+			"password",
+			"session_passwod",
+			"search",
+			":d",
+			"parse",
+			"raw_input",
+			"verrified",
+			"urlp",
+			" ",
+			"pcre",
+			"\\n",
+			"vocab",
+			"io",
+			"iow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"wait_load",
+			"input",
+			"verified"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "_includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								511,
+								511
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/1928-09-07-discovery.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 74.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 266.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 28.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "nnormandin.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/python/projects/job_bot/job_bot/pytorch_examples.sublime-workspace"
+			],
+			[
+				"job",
+				"~/python/projects/job_bot/job_bot.sublime-project"
+			],
+			[
+				"notte",
+				"~/Documents/notes/notes.sublime-project"
+			],
+			[
+				"note",
+				"~/Documents/notes/notes.sublime-project"
+			],
+			[
+				"y",
+				"~/torch/YoungOvid/youngovid.sublime-project"
+			],
+			[
+				"notes",
+				"~/Documents/notes/notes.sublime-project"
+			],
+			[
+				"youg",
+				"~/torch/YoungOvid/youngovid.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
