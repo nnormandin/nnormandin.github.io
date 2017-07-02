@@ -1,8 +1,8 @@
 
 # Site settings
-title: Nick Normandin
+title: nick normandin
 email: nicholas.e.normandin@gmail.com
-description: just a fun guy
+description: science, books, adventure
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nnormandin.github.io" # the base hostname & protocol for your site
 
