@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /about/
+order: 2
 ---
 
 
@@ -12,5 +13,5 @@ nicholas.e.normandin [at] gmail.com
 
 
 ### Connect
-[linkedin](https://www.linkedin.com/in/nicholasnormandin/)
-[github](https://github.com/nnormandin)
+-[linkedin](https://www.linkedin.com/in/nicholasnormandin/)
+-[github](https://github.com/nnormandin)
