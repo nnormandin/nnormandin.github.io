@@ -97,3 +97,5 @@ Using the CIFAR10 deep CNN example from the Keras example repository, I was able
 
 This is great, but I think it's useful to validate new tools on data sets that aren't part of the normal machine learning milieu. I'm playing around with some financial time series data right now (using 100 days of OHLCV data to forecast returns using hybrid recurrent/self normalizing networks), and I'm having a lot of trouble tuning the learning rate to properly train my models. Hopefully YellowFin is the answer I've been looking for.
 
+
+<h1><i class="fa fa-flask" aria-hidden="true"></i></h1>
