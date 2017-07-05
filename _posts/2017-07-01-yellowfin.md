@@ -26,7 +26,7 @@ Introduced by Jian Zhang, Ioannis Mitliagkas, and Christopher Ré in the paper [
 
 Most state-of-the-art methods store gradients from previous time steps with some decay parameter to form a 'momentum' term that is combined with the gradient in the current time step. However, the parameters for the momentum term (eg. \\(\beta_1\\) and \\(\beta_2\\) for the *Adam* optimizer) are static during training. Here are my key takeaways from the *YellowFin* paper:
 
-- Recent [**literature**](https://arxiv.org/abs/1705.08292) has suggested that algorithms conducting element-wise gradient tuning yield marginal benefits to vanilla stochastic-gradient descent. Furthermore, models trained with these techniques actually generalize more poorly.
+- Recent [**literature**](https://arxiv.org/abs/1705.08292) has suggested that algorithms conducting element-wise gradient tuning yield marginal benefits compared to vanilla stochastic-gradient descent. Furthermore, models trained with these techniques actually generalize more poorly.
 - In another recent [**paper**](https://arxiv.org/abs/1605.09774), Mitliagkas et al. showed that asynchronous training introduces 'momentum-like dynamics' into optimization (amplifying the momentum that has already been specified in the parameters of the chosen optimizer).
 - The authors have found that tuning momentum as part of the optimizer parameter search improves convergence, but note that conducting a grid-search for the correct momentum and learning rates is challenging. Therefore, they propose *automatic momentum tuning*.
 - The authors demonstrate that *momentum is robust to learning rate misspecification*. The source of this property is that the spectral radius of the momentum operator, \\(\rho(\mathbf{\mathit{A}}_t)\\) is constant in some subset of the hyperparameter space. The spectral radius of a matrix \\(\rho(\mathit{X})\\) is the largest absolute value of its eigenvectors.
@@ -95,5 +95,5 @@ I've tested it on GPU and CPU with Ubuntu 16.04, but if you find any issues plea
 
 Using the CIFAR10 deep CNN example from the Keras example repository, I was able to make a [**working example**](https://github.com/nnormandin/YellowFin_Keras/blob/master/examples/cifar10_cnn.py) of my modified YellowFin in Keras.
 
-This is great, but I think it's useful to validate new tools on data sets that aren't part of the normal machine learning milieu. I'm playing around with some financial time series data right now (using 100 days of OHLCV data to forecast returns using hybrid recurrent/self normalizing networks), and I'm having a lot of trouble tuning the learning rate to properly traing my models. Hopefully YellowFin is the answer I've been looking for.
+This is great, but I think it's useful to validate new tools on data sets that aren't part of the normal machine learning milieu. I'm playing around with some financial time series data right now (using 100 days of OHLCV data to forecast returns using hybrid recurrent/self normalizing networks), and I'm having a lot of trouble tuning the learning rate to properly train my models. Hopefully YellowFin is the answer I've been looking for.
 
