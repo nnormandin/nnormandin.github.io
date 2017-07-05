@@ -4,7 +4,7 @@ title: nick normandin
 email: nicholas.e.normandin@gmail.com
 description: science, books, adventure
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "nnormandin.github.io" # the base hostname & protocol for your site
+url: "http://nnormandin.com" # the base hostname & protocol for your site
 
 github_username:  nnormandin
 twitter_username:
