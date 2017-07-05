@@ -35,7 +35,25 @@
 			"file": "about.md",
 			"settings":
 			{
-				"buffer_size": 1648,
+				"buffer_size": 1691,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 412,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 379,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -48,16 +66,6 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "I"
-			}
-		},
-		{
-			"file": "science.md",
-			"settings":
-			{
-				"buffer_size": 88,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "---"
 			}
 		},
 		{
@@ -74,7 +82,43 @@
 			"file": "contact.md",
 			"settings":
 			{
-				"buffer_size": 488,
+				"buffer_size": 656,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2017-07-01-yellowfin.md",
+			"settings":
+			{
+				"buffer_size": 572,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/archive.html",
+			"settings":
+			{
+				"buffer_size": 539,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 1174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.scss",
+			"settings":
+			{
+				"buffer_size": 16455,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -300,19 +344,22 @@
 	"expanded_folders":
 	[
 		"/home/nick/documents/nnormandin.github.io",
+		"/home/nick/documents/nnormandin.github.io/_includes",
+		"/home/nick/documents/nnormandin.github.io/_layouts",
 		"/home/nick/documents/nnormandin.github.io/_posts",
 		"/home/nick/documents/nnormandin.github.io/_sass",
 		"/home/nick/documents/nnormandin.github.io/css"
 	],
 	"file_history":
 	[
+		"/home/nick/documents/nnormandin.github.io/science.md",
+		"/home/nick/documents/nnormandin.github.io/index.html",
 		"/home/nick/documents/nnormandin.github.io/_layouts/archive.html",
 		"/home/nick/documents/nnormandin.github.io/_layouts/resume.html",
 		"/home/nick/documents/nnormandin.github.io/_includes/sidebar.html",
 		"/home/nick/documents/nnormandin.github.io/_includes/head.html",
 		"/home/nick/documents/nnormandin.github.io/css/style.scss",
 		"/home/nick/documents/nnormandin.github.io/_layouts/page.html",
-		"/home/nick/documents/nnormandin.github.io/index.html",
 		"/home/nick/documents/nnormandin.github.io/contact.md",
 		"/home/nick/.config/sublime-text-3/Packages/User/Markdown (Standard).sublime-settings",
 		"/home/nick/.config/sublime-text-3/Packages/MarkdownEditing/Markdown.sublime-settings",
@@ -387,7 +434,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -402,6 +449,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"post-content",
+			"---\n",
 			"nick",
 			"zero_grad",
 			"count",
@@ -449,7 +498,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -458,15 +507,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1648,
+						"buffer_size": 1691,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								361,
-								361
+								67,
+								67
 							]
 						],
 						"settings":
@@ -477,11 +526,69 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "_includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "resume.md",
 					"semi_transient": false,
 					"settings":
@@ -493,8 +600,71 @@
 						"selection":
 						[
 							[
-								30,
-								30
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "books.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"auto_name": "---",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "contact.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
 							]
 						],
 						"settings":
@@ -509,84 +679,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "science.md",
+					"buffer": 6,
+					"file": "_posts/2017-07-01-yellowfin.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 88,
+						"buffer_size": 572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								84,
-								84
-							]
-						],
-						"settings":
-						{
-							"auto_name": "---",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "books.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								146
-							]
-						],
-						"settings":
-						{
-							"auto_name": "---",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "contact.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 488,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								257,
-								257
+								572,
+								572
 							]
 						],
 						"settings":
@@ -597,7 +703,97 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_layouts/archive.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_layouts/post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "css/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12075,
+								12075
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8914.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
