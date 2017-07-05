@@ -9,7 +9,7 @@ YellowFin is a new type of optimizer for deep neural networks that is purported 
 
 - quickly review the concept of optimizers in deep learning
 - give a summary of YellowFin and the concepts behind it
-- review the TensorFlow implementation code, and how I hacked together Keras compatibility
+- review the TensorFlow implementation code, and how I [**hacked together Keras compatibility**](https://github.com/nnormandin/YellowFin_Keras)
 - test it on some more obscure data to see how it performs 'in the wild'
 <br><br>
 
@@ -56,9 +56,44 @@ Most state-of-the-art methods store gradients from previous time steps with some
 
 ![results image](/assets/images/yellowfin_result.png)
 
+
+
+- As a last (but I think important) note, the authors assume a negative log-probability objective function in their calculations for the measurement functions used as inputs for *SingleStep*. This means it should play nicely with normal classification loss functions (eg. binary and categorical cross-entropy), but probably not for other ones. I'll explore this later.
+
 <br><br>
 
 # making the TensorFlow version work in Keras
 
+The authors of the YellowFin paper released an [**implementation**](https://github.com/JianGoForIt/YellowFin) of their work in TensorFlow at the time of publication, and [**another**](https://github.com/JianGoForIt/YellowFin_Pytorch) in PyTorch soon afterwards.
+
+I was able to easily drop the `YFOptimizer` object into my TensorFlow projects, but noticed when I tried to use it in keras with the `TFOptimizer` wrapper that the methods were not compatible.
+
+Digging into the source code at [**keras/optimizers**](https://github.com/fchollet/keras/blob/59cd1c3994153a66084b00fadcafad2af5a15dd7/keras/optimizers.py#L599-L628), I was quickly able to see that this class defines a `get_updates` function that requires the TensorFlow optimzer being wrapped to have explicit `compute_gradients` and `apply_gradients` attributes. Looking into the the YellowFin [**source**](https://github.com/JianGoForIt/YellowFin/blob/master/tuner_utils/yellowfin.py), you can see that the authors simplified the optimization process by aggregating  `compute_gradients` and `apply_gradients` into a single `minimize` function.
+
+It's also worth noting that the YellowFin optimizer itself appears to be a wrapper for the `tf.train.MomentumOptimizer` object, which becomes an attribute of the `YFOptimizer`. This saves the authors a significant amount of work, and allows them to devote most of their code to the functions that approximate the distance to a local minima \\(\mathit{D}\\), an estimate for gradient variance \\(\mathit{C}\\), and the largest/smallest generalized curvatures \\(\mathit{h_{max}}\\) and \\(\mathit{h_{min}}\\).
+
+I was able to make a slightly modified version of the YellowFin optimizer that seems to play nice with Keras by explicitly defining the `compute_gradients` method and passing the `global_steps` argument from the Keras API. I'd really like to make this a native keras optimizer from scratch, but right now it can be used in its slightly modified state like this:
+
+```python
+from yellowfin import YFOptimizer
+from keras.optimizers import TFOptimizer
+
+# define your optimizer
+opt = TFOptimizer(YFOptimizer())
+
+# compile a classification model
+model.compoile(loss = 'categorical_crossentropy',
+               metrics = ['acc'],
+               optimizer = opt)
+```
+
+I've tested it on GPU and CPU with Ubuntu 16.04, but if you find any issues please don't hesitate to [**contact me**](/contact) or contribute to it on [**github**](https://github.com/nnormandin/yellowfin_keras). 
+
+<br><br>
 
 # benchmark: financial time series forecasting
+
+Using the CIFAR10 deep CNN example from the Keras example repository, I was able to make a [**working example**](https://github.com/nnormandin/YellowFin_Keras/blob/master/examples/cifar10_cnn.py) of my modified YellowFin in Keras.
+
+This is great, but I think it's useful to validate new tools on data sets that aren't part of the normal machine learning milieu. I'm playing around with some financial time series data right now (using 100 days of OHLCV data to forecast returns using hybrid recurrent/self normalizing networks), and I'm having a lot of trouble tuning the learning rate to properly traing my models. Hopefully YellowFin is the answer I've been looking for.
+
