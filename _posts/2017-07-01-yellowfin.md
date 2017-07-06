@@ -7,10 +7,10 @@ categories: ["science"]
 
 YellowFin is a new type of optimizer for deep neural networks that is purported to achieve faster convergence and better results than state-of-the-art optimizers like Adagrad, Adam, and RMSProp in many domains. I'm going to:
 
-- quickly review the concept of optimizers in deep learning
-- give a summary of YellowFin and the concepts behind it
-- review the TensorFlow implementation code, and how I [**hacked together Keras compatibility**](https://github.com/nnormandin/YellowFin_Keras)
-- test it on some more obscure data to see how it performs 'in the wild'
+- [quickly review](#optimization-in-deep-learning) the concept of optimizers in deep learning
+- [give a summary](#yellowfin-and-momentum-tuning) of YellowFin and the concepts behind it
+- [review the TensorFlow implementation code](#making-the-tensorflow-version-work-in-keras), and how I [**hacked together Keras compatibility**](https://github.com/nnormandin/YellowFin_Keras)
+- [test it](#benchmark-financial-time-series-forecasting) on some more obscure data to see how it performs 'in the wild'
 <br><br>
 
 ## optimization in deep learning
