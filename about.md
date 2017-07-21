@@ -8,7 +8,7 @@ order: 1
 <br>
 
 ### What am I doing now?
-I'm an army cyber warfare officer living in the DC area. I work on data science, machine learning, and computing problems for army cyber command and DARPA.
+I'm an Army cyber warfare officer living in the DC area. I work on data science, machine learning, and computing problems for Army Cyber Command and DARPA.
 
 When I'm not at work you can probably find me reading a book, writing code, or trying to learn something new.
 

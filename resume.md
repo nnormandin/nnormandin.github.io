@@ -44,7 +44,7 @@ Extremely curious, fast learner, hard worker. Right now I'm conducting research 
 
 <h1 style="color:black;"><i class="fa fa-code fa-fw" aria-hidden="true" style="color:black;"></i> <strong> Skills</strong></h1>
 
-<div style="float: left; width: 45%; height: 300px">
+<div style="float: left; width: 45%; height: 270px">
 
 <font size = "2">
 <h1><strong>Proficient:</strong></h1></font>
@@ -58,8 +58,8 @@ Extremely curious, fast learner, hard worker. Right now I'm conducting research 
 </ul>
 
 </div>
-<div style="float:left; width: 10%; height: 300px"></div>
-<div style="float: right; width: 45%; height: 300px">
+<div style="float:left; width: 10%; height: 270px"></div>
+<div style="float: right; width: 45%; height: 270px">
 
 <font size = "2">
 <h1><strong>Familiar:</strong></h1></font>
